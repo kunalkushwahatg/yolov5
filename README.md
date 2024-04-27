@@ -11,6 +11,7 @@ The `detect.py` script loads the pre-trained YOLOv5 model and performs object de
 * Clone this repository:
 `--git clone https://github.com/kunalkushwahatg/yolov5.git`
 `--cd yolov5-object-detection`
+* Download models from [yolov5_models]([https://github.com/](https://drive.google.com/drive/folders/1kS45-hgRCYkKZndksu0mIDFCo6vBOJEa?usp=drive_link)) and place it in main folder.
 * Place your images containing objects you want to detect in the images directory.
 * Run the `detect.py` script
 * This script also contains a function for detection that can be used for flask / fastapi / django based webapps.
