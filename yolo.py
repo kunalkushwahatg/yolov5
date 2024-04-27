@@ -7,7 +7,7 @@ small = yolov5s
 large = yolov5l
 extralarge = yolov5x
 '''
-model = torch.hub.load('ultralytics/yolov5', 'yolov5x',verbose=False)
+model = torch.hub.load('ultralytics/yolov5', 'yolov5_models/yolov5x',verbose=False)
 print("model loaded")
 with open('coco.txt', 'r') as f:
     class_labels = f.read().strip().split('\n')
